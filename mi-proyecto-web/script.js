@@ -39,3 +39,4 @@ siguienteBtn.addEventListener('click', () => {
 });
 
 mostrarPregunta();
+//wow que loco
