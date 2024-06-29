@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.pregunta {
+    background-color: #d3d3d3;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Aseguramos la misma distancia desde el rectángulo de preguntas */
+}
+
+.boton-flecha {
+    background-color: #28a745;
+    color: white;
+    border: 2px solid black; /* Añadimos borde negro */
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px; /* Aumentamos el tamaño del botón */
+    font-size: 50px; /* Aumentamos significativamente el tamaño de la flecha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-flecha:hover {
+    background-color: #218838;
+}
